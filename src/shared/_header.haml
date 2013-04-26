@@ -1,0 +1,38 @@
+
+%header#header
+  %nav#main
+
+    .wrapper
+      %ul
+        %li.js_nav_link= link_to "About", "#about"
+        %li.js_nav_link= link_to "Speakers", "#speakers"
+        %li.js_nav_link= link_to "Schedule", "#schedule"
+        %li.js_nav_link= link_to "Venue", "#venue"
+        %li.js_nav_link= link_to "Presented by", "#presented"
+        %li.js_nav_link= link_to "Sponsors", "#sponsors"
+        %li#register= link_to "Register", "http://www.quicket.co.za/events/1209-rubyfuza-2013/"
+
+      %a{:href=>"http://www.quicket.co.za/events/1209-rubyfuza-2013/", :class=>"register-now"}
+        %span Register now!
+
+  .wrapper
+    %a{:name=>"about"}
+    %h1
+      %a{:href=>"#", :alt=>"Inbox Awesome 2013"}
+        %img{:src=>"../images/logo.png"}
+
+    %h2
+      June 13, 2013
+      %span New York, NY
+
+    %h3
+      A forum on the future of email
+      %span Insightful speakers, great networking, and even some fun!
+    %a{:href=>"http://www.quicket.co.za/events/1209-rubyfuza-2013/", :class=>"book-ticket action"} Book Your Ticket Now!
+    //%a{:href=>"#", :class=>"action2 right"} Book Your Ticket Now!
+
+    %ul.features
+      %li.full
+        %p
+          $100 if you register prior to June 1st, $125 thereafter
+          %span * includes the full day of speakers, lunch, and snacks.

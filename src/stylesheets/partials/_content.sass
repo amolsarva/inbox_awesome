@@ -82,17 +82,15 @@
 		+transition(border .3s)
 		&.bg
 			background: url("../images/bg2.png")
-	.github, .twitter
+	.twitter
 		opacity: 0.7
 		img
 			border: none
 			position: absolute
-			top: 20px
+			top: 24px
 			width: auto
-	.github img
-		right: 6%
 	.twitter img
-		right: 21%
+		right: 14%
 
 
 #schedule
@@ -182,8 +180,11 @@
 			overflow-y: auto
 
 	ul
+		text-align: center
 		+pie-clearfix
 		li
+			display: inline-block
+			float: none
 			margin-bottom: 40px
 		a
 			display: block
@@ -302,4 +303,5 @@ strong
 
 .book-ticket
 	position: relative !important
+	margin-top: 25px !important
 	margin-bottom: 25px !important

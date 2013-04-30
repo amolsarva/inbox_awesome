@@ -283,7 +283,7 @@ header#header h2 span {
 /* line 32, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h3 {
   clear: both;
-  font: 6.4em/1.2 "Londrina Solid", sans-serif;
+  font: 6.3em/1.2 "Londrina Solid", sans-serif;
   letter-spacing: 0.025em;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -292,7 +292,7 @@ header#header h3 {
 /* line 40, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h3 span {
   display: block;
-  font: 0.45em "Patua One";
+  font: 0.42em "Patua One";
   text-transform: none;
   text-shadow: rgba(0, 0, 0, 0.25) 1px 4px 0px;
 }

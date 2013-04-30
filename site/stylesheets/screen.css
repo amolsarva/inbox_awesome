@@ -253,7 +253,7 @@ header#header > .wrapper {
 /* line 9, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h1 {
   float: left;
-  padding: 35px 0 65px;
+  padding: 20px 0 35px;
   width: 40%;
 }
 /* line 13, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
@@ -262,7 +262,7 @@ header#header h1 a {
 }
 /* line 15, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h1 img {
-  max-width: 282px;
+  max-width: 300px;
   width: 100%;
 }
 /* line 19, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */

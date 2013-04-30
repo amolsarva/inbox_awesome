@@ -117,11 +117,6 @@ ul.list li {
   margin-left: 16px;
 }
 
-/* line 46, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_base.sass */
-.strike {
-  text-decoration: line-through;
-}
-
 /* line 1, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_layout.sass */
 .wrapper {
   margin: 0 auto;

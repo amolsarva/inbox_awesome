@@ -3,7 +3,7 @@
 
   == Clone the project from Github
     
-    git clone git@github.com:siyelo/rubyfuza.git
+    git clone git@github.com:siyelo/inbox_awesome.git
     
   == Install gems
     

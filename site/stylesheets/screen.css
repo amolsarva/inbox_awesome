@@ -254,7 +254,7 @@ header#header > .wrapper {
 /* line 9, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h1 {
   margin: 0 auto;
-  padding: 55px 0 0;
+  padding: 70px 0;
   width: 40%;
 }
 /* line 13, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
@@ -325,7 +325,7 @@ header#header a.action {
   font: 1.6em "patua one";
   letter-spacing: 0.05em;
   margin: 0 auto;
-  padding: 15px 3%;
+  padding: 20px 3%;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;

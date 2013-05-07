@@ -237,7 +237,7 @@ section .wrapper {
 
 /* line 2, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header {
-  background: url("../images/bg0.png") no-repeat 50% 27% rgba(0, 0, 0, 0.2);
+  background: url("../images/bg0.png") no-repeat 50% 34% rgba(0, 0, 0, 0.2);
   margin-bottom: 80px;
   padding-top: 70px;
 }
@@ -253,20 +253,21 @@ header#header > .wrapper {
 }
 /* line 9, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h1 {
-  float: left;
-  padding: 20px 0 35px;
+  margin: 0 auto;
+  padding: 55px 0 0;
   width: 40%;
 }
 /* line 13, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h1 a {
   display: block;
+  text-align: center;
 }
-/* line 15, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 16, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h1 img {
-  max-width: 300px;
+  max-width: 360px;
   width: 100%;
 }
-/* line 19, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 20, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h2 {
   background: url("../images/date.png") no-repeat center right;
   float: right;
@@ -276,12 +277,12 @@ header#header h2 {
   padding: 13px 50px 11px 0;
   text-align: right;
 }
-/* line 28, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 29, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h2 span {
   display: block;
   font-size: 0.8em;
 }
-/* line 32, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 33, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h3 {
   clear: both;
   font: 6.1em/1.2 "Londrina Solid", sans-serif;
@@ -290,32 +291,32 @@ header#header h3 {
   position: absolute;
   text-align: center;
   text-transform: uppercase;
-  top: 33%;
+  top: 37%;
   width: 100%;
   text-shadow: rgba(0, 0, 0, 0.25) 2px 5px 0px;
 }
-/* line 44, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 45, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h3 span {
   display: block;
   font: 0.42em "Patua One";
   text-transform: none;
   text-shadow: rgba(0, 0, 0, 0.25) 1px 4px 0px;
 }
-/* line 50, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 51, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h2, header#header h3 {
   text-align: center;
 }
-/* line 52, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 53, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header h2 span, header#header h3 span {
   color: #98c9ee;
 }
-/* line 55, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 56, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .ticket {
   background: url("../images/envelopes.png") no-repeat center bottom;
   clear: both;
   padding: 230px 0 65px;
 }
-/* line 59, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 60, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header a.action {
   background: #c93131;
   border: 3px dashed #b01818;
@@ -345,7 +346,7 @@ header#header a.action {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 77, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 78, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header a.action:hover, header#header a.action:focus {
   background: white;
   color: #222222;
@@ -356,7 +357,7 @@ header#header a.action:hover, header#header a.action:focus {
   transform: rotate(1deg);
   text-shadow: rgba(255, 255, 255, 0.3) 0 2px 0;
 }
-/* line 83, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 84, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .conf {
   position: relative;
   text-align: center;
@@ -368,7 +369,7 @@ header#header .conf:after {
   display: table;
   clear: both;
 }
-/* line 89, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 90, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features {
   margin: 0 0 60px;
   *zoom: 1;
@@ -379,53 +380,53 @@ header#header .features:after {
   display: table;
   clear: both;
 }
-/* line 92, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 93, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features p {
   font: 1em "Patua One", Arial, sans-serif;
   letter-spacing: 0.05em;
   margin: 10px 0;
   padding: 0px 20px;
 }
-/* line 98, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 99, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features p img {
   margin-right: 15px;
 }
-/* line 101, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 102, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features p span {
   display: block;
   font-size: 1.2em;
   padding-top: 22px;
 }
-/* line 110, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 111, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features li:last-child {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 2.2em;
   text-align: center;
 }
-/* line 115, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 116, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features li:last-child p {
   line-height: 1;
   padding-top: 20px;
 }
-/* line 118, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 119, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features li:last-child span {
   color: #98c9ee;
   display: block;
   font: 0.6em "open sans";
   padding-top: 12px;
 }
-/* line 123, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 124, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features li .left {
   max-width: 70px;
   width: 25%;
 }
-/* line 127, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 128, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 header#header .features .full {
   float: left;
   width: 100%;
 }
 
-/* line 131, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 132, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main {
   background: url("../images/bg1.png");
   position: fixed;
@@ -441,7 +442,7 @@ nav#main:after {
   display: table;
   clear: both;
 }
-/* line 140, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 141, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main ul {
   float: left;
   *zoom: 1;
@@ -452,11 +453,11 @@ nav#main ul:after {
   display: table;
   clear: both;
 }
-/* line 143, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 144, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main li {
   display: inline;
 }
-/* line 145, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 146, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main li a {
   display: inline-block;
   font-size: 1.1em;
@@ -464,19 +465,19 @@ nav#main li a {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 151, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 152, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main li a:hover, nav#main li a:focus {
   background: rgba(0, 0, 0, 0.2);
 }
-/* line 153, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 154, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main li#register {
   display: none;
 }
-/* line 155, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 156, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main li#register a {
   color: #c93131;
 }
-/* line 157, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 158, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 nav#main a {
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -484,25 +485,25 @@ nav#main a {
   transition: all 0.3s;
 }
 
-/* line 160, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 161, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 .register-now {
   float: right;
   padding: 20px 0;
   text-decoration: none;
 }
-/* line 164, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 165, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 .register-now span {
   color: #c93131;
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
 }
-/* line 170, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 171, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 .register-now:hover span, .register-now:focus span {
   color: #eb5353;
 }
 
-/* line 173, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
+/* line 174, /Users/exterminateart/apps/inbox_awesome/src/stylesheets/partials/_header.sass */
 .conf img {
   display: inline-block;
   max-width: 940px;

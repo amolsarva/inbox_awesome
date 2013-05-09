@@ -3,8 +3,8 @@ if RUBY_VERSION =~ /1.9/
   Encoding.default_internal = Encoding::UTF_8
 end
 
-source :rubygems
+source 'https://rubygems.org'
 
+gem 'compass', '=0.11.7'
 gem 'rack'
 gem 'staticmatic'
-gem 'compass', '=0.11.7'

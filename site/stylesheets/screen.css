@@ -432,7 +432,7 @@ nav#main {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 12;
+  z-index: 14;
   *zoom: 1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }

@@ -115,11 +115,24 @@
 		margin-bottom: 30px
 	li
 		border-top: 1px solid rgba(255, 255, 255, 0.08)
-		display: table
+		//display: table
 		padding: 10px
 		width: 100%
+		+pie-clearfix
 		> *
-			display: table-cell
+			float: left
+		//	display: table-cell
+		ul
+			clear: left
+			list-style: disc
+			margin-left: 60px
+			margin-top: 5px
+			margin-bottom: 2px
+			padding-left: 20px
+		li
+			border: none
+			font-style: italic
+			padding: 5px 0 0
 		time
 			color: $one
 			width: 50px
